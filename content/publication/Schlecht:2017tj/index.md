@@ -1,0 +1,11 @@
++++
+title = "Feedback delay networks in artificial reverberation and reverberation enhancement"
+date = 2017-10-01
+authors = ["Sebastian Jiro Schlecht"]
+publication_types = ["4"]
+abstract = "In todaytextquoterights audio production and reproduction as well as in music performance practices it has become common practice to alter reverberation artificially through electronics or electro- acoustics. For music productions, radio plays, and movie soundtracks, the sound is often captured in small studio spaces with little to no reverberation to save real estate and to ensure a controlled environment such that the artistically intended spatial impression can be added during post-production. Spatial sound reproduction systems require flexible adjustment of artificial reverberation to the diffuse sound portion to help the reconstruction of the spatial impression. Many modern performance spaces are multi-purpose, and the reverberation needs to be adjustable to the desired performance style. Employing electro-acoustic feedback, also known as Reverberation Enhancement Systems (RESs), it is possible to extend the physical to the desired reverberation.These examples demonstrate a wide range of applications where reverberation is created and enhanced artificially employing signal processing techniques. A major challenge of designing artificial reverberators is the high complexity of the physical reverberation process. Even small office spaces of 40 m3 exhibit more than 107 acoustic modes, in concert halls the number of acoustic modes can surpass 109 in the audible range. The room geometry, as well as the interaction with the boundary materials, can be as well fairly complex. Whereas these complex considerations are mandatory for simulations of specific spaces, used for example for the acoustic and architectural planning of a concert venue, they are somewhat misleading in the realm of artistic applications. The focus on perceptually convincing artificial reverberation algorithms provides the freedom to make some simplifications to the generation process, leading to the recursive systems, which play a central role in this dissertation."
+selected = false
+publication = ""
+url_pdf = "https://opus4.kobv.de/opus4-fau/frontdoor/index/index/docId/9345"
++++
+

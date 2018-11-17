@@ -10,7 +10,7 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Virtual Acoutics",
+    "Virtual Room Acoustics",
     "Physical Modeling",
     "Augmented Reality",
 	"Psychoacoustics"
