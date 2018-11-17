@@ -10,31 +10,32 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Virtual Acoutics",
+    "Physical Modeling",
+    "Augmented Reality",
+	"Psychoacoustics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Acoustic Signal Processing"
+  institution = "University of Erlangen-Nuremberg, Germany"
+  year = 2017
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "M.Sc. in Digital Music Processing"
+  institution = "Queen Mary, University of London, UK"
+  year = 2011
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "M.Sc. in Applied Mathematics"
+  institution = "University of Trier, Germany"
+  year = 2010
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Sebastian J. Schlecht is a postdoctoral researcher at the International Audio Laboratories Erlangen of the Friedrich-Alexander-University Erlangen-Nuremberg, Germany. His research interests include spatial audio processing with an emphasis on artificial reverberation, localization, and panning, 6- degree-of-freedom virtual and mixed reality applications. In particular, his research efforts have been directed towards the intersection of mathematical filter design, efficient algorithms, perceptual aspects, and user-oriented experience. Sebastian Schlecht complements his scientific work with being an avid musical performer, and a research and development consultant at the Fraunhofer Institute for Integrated Circuits (IIS) in Erlangen.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+

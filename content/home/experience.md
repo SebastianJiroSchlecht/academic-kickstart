@@ -19,27 +19,30 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Postdoctoral Researcher"
+  company = "International Audio Laboratories Erlangen"
+  company_url = "https://www.audiolabs-erlangen.de/home"
+  location = "Erlangen, Germany"
+  date_start = "2018-03-01"
   date_end = ""
   description = """
-  Responsibilities include:
+  Reserach topics include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Binaural Reproduction 
+  * 6-Degrees-of-Freedom
+  * Virtual and Augmented Reality
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Research Consultant"
+  company = "Fraunhofer Institute for Integrated Circuits"
+  company_url = "https://www.iis.fraunhofer.de/en/ff/amm.html"
+  location = "Erlangen, Germany"
+  date_start = "2010-08-01"
+  date_end = ""
+  description = """
+  Lead developer of __IIS 3D Reverb__ audio plugin for multichannel post-production
+ 
+  """
 
 +++
