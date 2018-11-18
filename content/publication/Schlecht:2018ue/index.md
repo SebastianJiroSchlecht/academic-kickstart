@@ -10,8 +10,10 @@ abstract_short = "This paper received the [2nd Best Paper Award](http://dafx2018
 selected = true
 publication = "*Proc. Int. Conf. Digital Audio Effects (DAFx)*"
 url_pdf = "http://dafx2018.web.ua.pt/papers/DAFx2018_paper_23.pdf"
-url_project = "https://www.audiolabs-erlangen.de/resources/2018-DAFx-VND"
+
+
 +++
+
 
 
 <img src="plot_meanMagnitudeAllIR.png" width="400"/>
@@ -48,79 +50,213 @@ The first listening test evaluated how much the decorrelation filters colorate t
 
 
 
-<div class="player">
-First set of decorrelators with drum signal
-(audio: mono_drums_mono_original_t1.m4a title: Original Mono Track)
-(audio: mono_drums_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: mono_drums_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: mono_drums_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: mono_drums_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
-</div>
 
 <div class="player">
-First set of decorrelators with guitar signal
-(audio: mono_guitar_mono_original_t1.m4a title: Original Mono Track)
-(audio: mono_guitar_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: mono_guitar_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: mono_guitar_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: mono_guitar_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
+  <p>
+      First set of decorrelators with drum signal
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="mono_drums_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="mono_drums_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="mono_drums_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="mono_drums_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="mono_drums_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
 </div>
 
-<div class="player">
-First set of decorrelators with female vocalist
-(audio: mono_song_mono_original_t1.m4a title: Original Mono Track)
-(audio: mono_song_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: mono_song_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: mono_song_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: mono_song_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
-</div>
+
 
 <div class="player">
-First set of decorrelators with speech signal
-(audio: mono_speech_mono_original_t1.m4a title: Original Mono Track)
-(audio: mono_speech_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: mono_speech_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: mono_speech_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: mono_speech_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
+  <p>
+      First set of decorrelators with guitar signal
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="mono_guitar_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="mono_guitar_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="mono_guitar_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="mono_guitar_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="mono_guitar_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
 </div>
+
+
+
+<div class="player">
+  <p>
+      First set of decorrelators with female vocalist
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="mono_song_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="mono_song_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="mono_song_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="mono_song_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="mono_song_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+</div>
+
+
+
+<div class="player">
+  <p>
+      First set of decorrelators with speech signal
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="mono_speech_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="mono_speech_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="mono_speech_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="mono_speech_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="mono_speech_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+</div>
+
+
+
+
+
 
 
 ### Stereo Quality Test
 
 The second listening test evaluated the effectiveness of the decorrelators in extending the auditory source width and the overall spatial quality. The input signal was convolved with a decorrelation filter for each channel (left and right) and the participants were asked to rate the perceived width, localization at the center, and overall quality. In this test, no ideal reference could be defined, so the unprocessed mono signal was provided only for guidance. The lowpass filtered mono signal was given as the anchor. The resulting stereo signal was reproduced on the left and right headphone channels. 
 
-<div class="player">
-First set of decorrelators with drum signal
-(audio: sdrums_mono_original_t1.m4a title: Original Mono Track)
-(audio: sdrums_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: sdrums_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: sdrums_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: sdrums_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
-</div>    
+
+
 
 <div class="player">
-First set of decorrelators with guitar signal
-(audio: guitar_mono_original_t1.m4a title: Original Mono Track)
-(audio: guitar_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: guitar_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: guitar_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: guitar_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
+  <p>
+      Stereo decorrelators with drum signal
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="sdrums_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="sdrums_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="sdrums_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="sdrums_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="sdrums_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
 </div>
 
-<div class="player">
-First set of decorrelators with female vocalist
-(audio: song_mono_original_t1.m4a title: Original Mono Track)
-(audio: song_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: song_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: song_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: song_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
-</div>
+
 
 <div class="player">
-First set of decorrelators with speech signal
-(audio: speech_mono_original_t1.m4a title: Original Mono Track)
-(audio: speech_WNS_t1.m4a title: Exponential White Noise WN)
-(audio: speech_eVND_t1.m4a title: Exponential Velvet Noise EVN30)
-(audio: speech_oVND15_t1.m4a title: Optimized Velvet Noise OVN30)
-(audio: speech_oVND30_t1.m4a title: Optimized Velvet Noise OVN15)
+  <p>
+      Stereo decorrelators with guitar signal
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="guitar_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="guitar_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="guitar_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="guitar_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="guitar_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
 </div>
+
+
+
+<div class="player">
+  <p>
+      Stereo decorrelators with female vocalist
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="song_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="song_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="song_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="song_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="song_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+</div>
+
+
+
+<div class="player">
+  <p>
+      Stereo decorrelators with speech signal
+  </p>
+  <ts-track title="Original Mono Track" data-img="">
+      <ts-source src="speech_mono_original_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential White Noise WN" data-img="">
+      <ts-source src="speech_WNS_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Exponential Velvet Noise EVN30" data-img="">
+      <ts-source src="speech_eVND_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN30" data-img="">
+      <ts-source src="speech_oVND30_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+  <ts-track title="Optimized Velvet Noise OVN15" data-img="">
+      <ts-source src="speech_oVND15_t1.m4a" type="audio/mpeg"></ts-source>
+  </ts-track>
+</div>
+
+
+
+
+
+
+<script src="https://cdn.rawgit.com/download/polymer-cdn/1.5.0/lib/webcomponentsjs/webcomponents-lite.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="/js/trackswitch.js"></script>
+<script type="text/javascript">
+	var $j = jQuery.noConflict();
+    $j(document).ready(function() {
+        // $j(".customplayer").trackswitch({ onlyradiosolo: true, repeat: true });
+        $j(".player").trackSwitch({ onlyradiosolo: true, repeat: true });
+    });
+</script>	
+
